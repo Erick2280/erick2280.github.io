@@ -433,6 +433,7 @@ body:before {
     width: 100%; 
     box-sizing: border-box;
     display: flex;
+    -webkit-transform:translateZ(0);
   }
 
 	.footer-distributed{
