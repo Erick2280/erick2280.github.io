@@ -295,7 +295,11 @@ body:before {
 	font: bold 16px sans-serif;
 
 	padding: 35px 50px;
-	margin-top: 80px;
+  margin-top: 80px;
+
+  -webkit-box-shadow: inset 0 -15px 15px -15px rgba(25,25,37,0.75), inset 0 15px 15px -15px rgba(25,25,37,0.75);
+  -moz-box-shadow: inset 0 -15px 15px -15px rgba(25,25,37,0.75), inset 0 15px 15px -15px rgba(25,25,37,0.75);
+  box-shadow: inset 0 -15px 15px -15px rgba(25,25,37,0.75), inset 0 15px 15px -15px rgba(25,25,37,0.75);
 }
 
 .footer-distributed .footer-left,
