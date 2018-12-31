@@ -420,6 +420,15 @@ body:before {
 
 @media (max-width: 880px) {
 
+  #footer {
+    overflow: visible;
+    position: relative; 
+    margin-bottom: 4vh;
+    width: 100%; 
+    box-sizing: border-box;
+    display: flex;
+  }
+
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	}

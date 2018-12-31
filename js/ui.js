@@ -5,4 +5,6 @@ function fillSalute() {
     document.getElementById("salute").innerHTML = selectedGreet;
 }
 
-window.onload = fillSalute();
+document.addEventListener("DOMContentLoaded", function(event) { 
+    fillSalute();
+});
