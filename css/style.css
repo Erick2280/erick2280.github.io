@@ -2,7 +2,6 @@ body {
   font-family: 'Fira Sans', sans-serif;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -327,9 +326,15 @@ body:before {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+
 }
 
-.footer-distributed .footer-disclaimer > a {
+a {
 	color:  #35c958;
   text-decoration: none;
 
@@ -340,7 +345,7 @@ body:before {
   -webkit-transition-timing-function: ease-in-out;
 }
 
-.footer-distributed .footer-disclaimer > a:hover {
+a:hover {
 	color:  #3ffd6b;
   text-decoration: none;
 }
@@ -351,6 +356,12 @@ body:before {
   width: 30%;
   padding-left: 2%;
   padding-right: 2%;
+
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
 }
 
 .footer-distributed .footer-center i{
