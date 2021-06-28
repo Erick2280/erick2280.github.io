@@ -1,0 +1,26 @@
+{
+  "name": "erickalmeida",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Erick Almeida",
+  "description": "Site pessoal de Erick Almeida, desenvolvedor e estudante de Ciência da Computação na Universidade Federal de Pernambuco.",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "nuxt-i18n": "^6.27.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/google-fonts": "^1.3.0",
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "postcss": "^8.2.8"
+  }
+}
