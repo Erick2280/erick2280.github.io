@@ -1,5 +1,5 @@
 <template>
-    <nav class="text-base">
+    <nav class="text-body">
         <p>{{ $t('mainSection.shortcuts.jumpTo') }}</p>
         <ul>
             <li><a href="#featured-projects">{{ $t('featuredProjectsSection.title') }}</a></li>
