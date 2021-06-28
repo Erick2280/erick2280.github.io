@@ -1,7 +1,7 @@
 <template>
   <main class="centered-container">
     <ElementLanguageSwitcher />
-    <img class="h-48 object-scale-down md:h-72 mt-6 mb-2" :title="$t('mainSection.artwork.title')" :alt="$t('mainSection.artwork.alternativeText')" src="~/assets/img/artwork-me.png" />
+    <img class="h-48 object-scale-down md:h-72 mt-4 mb-2" :title="$t('mainSection.artwork.title')" :alt="$t('mainSection.artwork.alternativeText')" src="~/assets/img/artwork-me.png" />
     <h1 class="main-greeting py-2 md:py-4">{{ $t('mainSection.greeting') }}</h1>
     <i18n path="mainSection.aboutMe.text" tag="p" class="text-sm sm:text-base lg:text-xl py-2 md:py-4">
         <template #name>
