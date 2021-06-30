@@ -1,6 +1,6 @@
 <template>
   <section class="centered-container">
-    <a name="get-in-touch"></a>
+    <a id="get-in-touch"></a>
     <h1 class="section-title">{{ $t('getInTouchSection.title') }}</h1>
     
     <ul class="contact-list py-2 lg:py-4">
