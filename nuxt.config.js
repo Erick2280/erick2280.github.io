@@ -244,7 +244,7 @@ export default {
               title: `Erick Almeida's photo`,
               alternativeText: 'In the foreground is Erick Almeida, a young Latino man with short hair and brown eyes wearing glasses. He is smiling and wearing a burgundy shirt. The photo shows only the bust, over a green circle. Around it is three smaller green circles.',
             },
-            greeting: 'Hi, crystal? All good?',
+            greeting: 'Hi there! All good?',
             aboutMe: {
               text: `I'm {name} (he/him), Computer Science student, web enthusiast, curious about design and from Irará, Bahia, Brazil.`
             },
