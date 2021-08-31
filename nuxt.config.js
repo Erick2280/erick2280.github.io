@@ -306,7 +306,7 @@ export default {
                 name: 'Campus Mobile 8th Edition (2020)',
                 issuer: 'Instituto Claro',
               },
-              description: 'Part of the winning team of this national innovation contest. They created a tool that aims to help therapists monitor autistic children.',
+              description: 'Part of the winning team of this national innovation contest. The team created a tool that aims to help therapists monitor autistic children.',
             },
             campusPartyNatal2019: {
               title: '1st Place Team (Nísia)',
