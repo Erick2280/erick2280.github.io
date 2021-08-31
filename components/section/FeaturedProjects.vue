@@ -53,7 +53,7 @@
         <p class="text-thematic-covidmunicipal-dark">{{ $t('featuredProjectsSection.covidmunicipal.description') }}</p>
       </template>
       <template #links>
-        <a class="text-thematic-covidmunicipal-light hover:text-thematic-covidmunicipal-dark mr-8" href="https://irara.covidmunicipal.live/" :title="$t('featuredProjectsSection.linkToWebApp', { projectName: 'COVID-19 Municipal' })">
+        <a class="text-thematic-covidmunicipal-light hover:text-thematic-covidmunicipal-dark mr-8" href="https://covid.riso.dev/" :title="$t('featuredProjectsSection.linkToWebApp', { projectName: 'COVID-19 Municipal' })">
           Web App
         </a>
         <a class="text-thematic-covidmunicipal-light hover:text-thematic-covidmunicipal-dark mr-8" href="https://github.com/covidmunicipal/" :title="$t('featuredProjectsSection.linkToGitHub', { projectName: 'COVID-19 Municipal' })">
