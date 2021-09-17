@@ -1,6 +1,5 @@
 <template>
-  <section class="centered-container">
-    <a id="featured-projects"></a>
+  <section class="centered-container" id="featured-projects">
     <h1 class="section-title">{{ $t('featuredProjectsSection.title') }}</h1>
 
     <div class="flex flex-col lg:flex-row lg:flex-none lg:flex-wrap lg:justify-between">
