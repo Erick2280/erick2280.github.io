@@ -148,7 +148,7 @@ export default {
             linkToTopgg: 'Página do {projectName} no top.gg',
             linkToWebApp: 'Web app do {projectName}',
           },
-          presentationsAndLecturesSection: {
+          presentationsAndTalksSection: {
             title: 'Apresentações e palestras',
             webForEveryone: {
               title: 'Uma web para todos: a importância do front-end na difusão de uma internet acessível para todas as pessoas',
@@ -286,8 +286,8 @@ export default {
             linkToTopgg: '{projectName} page on top.gg',
             linkToWebApp: '{projectName} web app',
           },
-          presentationsAndLecturesSection: {
-            title: 'Presentations and lectures',
+          presentationsAndTalksSection: {
+            title: 'Presentations and talks',
             webForEveryone: {
               title: 'A web for everyone: the importance of the front-end in making the internet accessible for all people',
               description: 'Participated in a discussion about the need to think about accessibility when developing experiences for the web.',

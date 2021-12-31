@@ -2,7 +2,7 @@
   <div>
     <SectionMain />
     <SectionFeaturedProjects />
-    <SectionPresentationsAndLectures />
+    <SectionPresentationsAndTalks />
     <SectionAwards />
     <SectionGetInTouch />
     <SectionFooter />

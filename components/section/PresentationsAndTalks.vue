@@ -1,14 +1,14 @@
 <template>
-  <section class="centered-container" id="presentations-and-lectures">
-    <h1 class="section-title">{{ $t('presentationsAndLecturesSection.title') }}</h1>
+  <section class="centered-container" id="presentations-and-talks">
+    <h1 class="section-title">{{ $t('presentationsAndTalksSection.title') }}</h1>
 
     <div class="flex flex-col">
     <ElementPresentationContainer class="presentation-container">
       <template #title>
-        {{ $t('presentationsAndLecturesSection.webForEveryone.title') }}
+        {{ $t('presentationsAndTalksSection.webForEveryone.title') }}
       </template>
       <template #description>
-        <p>{{ $t('presentationsAndLecturesSection.webForEveryone.description') }}</p>
+        <p>{{ $t('presentationsAndTalksSection.webForEveryone.description') }}</p>
       </template>
       <template #locations>
         <ul>
@@ -18,10 +18,10 @@
     </ElementPresentationContainer>
     <ElementPresentationContainer class="presentation-container">
       <template #title>
-        {{ $t('presentationsAndLecturesSection.developingWithAccessibilityInMind.title') }}
+        {{ $t('presentationsAndTalksSection.developingWithAccessibilityInMind.title') }}
       </template>
       <template #description>
-        <p>{{ $t('presentationsAndLecturesSection.developingWithAccessibilityInMind.description') }}</p>
+        <p>{{ $t('presentationsAndTalksSection.developingWithAccessibilityInMind.description') }}</p>
       </template>
       <template #locations>
         <ul>
